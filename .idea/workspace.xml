@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66698801-f415-48f3-8e94-397642bb7087" name="Changes" comment="update pom.xml, add daveloper field&#10;created class Human, Doctor, Nurse and Patient extends Human&#10;add close() in GetInformationFromDB&#10;removed unneccesarry try/catch from Main class&#10;added Connection class&#10;added closeStreams() in RemoveStaffFromDB" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f48989a5-af17-4b1c-a1ad-9bac761ec75c" />
+        <option name="url" value="https://github.com/ndimovt/Hospital-V2-main.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MsdFTeLAb3l1A9ZjGiUkTh7fJ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Nikolai/IdeaProjects/Hospital-V2-main",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Hospital-V2-main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Hospital-V2-main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66698801-f415-48f3-8e94-397642bb7087" name="Changes" comment="" />
+      <created>1678560121119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678560121119</updated>
+    </task>
+    <task id="LOCAL-00001" summary="This is my reworked project for hospital menagement. More changes to come in future">
+      <created>1678633816043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678633816043</updated>
+    </task>
+    <task id="LOCAL-00002" summary="This is my reworked project for hospital menagement. More changes to come in future">
+      <created>1678634167885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678634167885</updated>
+    </task>
+    <task id="LOCAL-00003" summary="This is my reworked project for hospital menagement. More changes to come in future">
+      <created>1679151329047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679151329047</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Hospital V3.0&#10;added options for inserting Doctors and Nurses to DB">
+      <created>1680375196955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375196955</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Hospital V3.0&#10;added options for inserting Doctors and Nurses to DB">
+      <created>1680375262648</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375262648</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Hospital V3.0&#10;added options for inserting Doctors and Nurses to DB">
+      <created>1680375450799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375450799</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hospital V3.0&#10;added options for inserting Doctors and Nurses to DB">
+      <created>1680375580813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375580813</updated>
+    </task>
+    <task id="LOCAL-00008" summary="In this update i created DateAndTime class which get the current date and time and add them to the Database">
+      <created>1681727978359</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681727978359</updated>
+    </task>
+    <task id="LOCAL-00009" summary="In this update i removed code that i don't use">
+      <created>1682711397489</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682711397489</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#2 Escaping SQL injection">
+      <created>1682756188929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682756188929</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixes #2 Escaping SQL injection">
+      <created>1682756293609</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682756293609</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="upstream/update" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="This is my reworked project for hospital menagement. More changes to come in future" />
+    <MESSAGE value="Hospital V3.0&#10;added options for inserting Doctors and Nurses to DB" />
+    <MESSAGE value="In this update i created DateAndTime class which get the current date and time and add them to the Database" />
+    <MESSAGE value="In this update i removed code that i don't use" />
+    <MESSAGE value="#2 Escaping SQL injection" />
+    <MESSAGE value="Fixes #2 Escaping SQL injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes #2 Escaping SQL injection" />
+  </component>
+</project>
