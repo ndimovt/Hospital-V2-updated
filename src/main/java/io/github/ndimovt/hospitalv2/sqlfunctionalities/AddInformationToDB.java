@@ -79,13 +79,13 @@ public class AddInformationToDB {
             close(connection, preparedStatement);
         }
     }
-    public void updatePatient(String illness, String treatment, long patientEGN){
+    public void updatePatient(long patientEGN,String illness, String treatment){
         try{
             connection = this.getConnection();
             preparedStatement = connection.prepareStatement("call hospital.updatePatient(?,?,?)");
-            preparedStatement.setString(1,illness);
+            preparedStatement.setLong(1,patientEGN);
             preparedStatement.setString(2,treatment);
-            preparedStatement.setLong(3,patientEGN);
+            preparedStatement.setString(3,illness);
             preparedStatement.executeUpdate();
             System.out.println("Patient's info successfully updated!");
         } catch (SQLException sqlException){

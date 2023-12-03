@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66698801-f415-48f3-8e94-397642bb7087" name="Changes" comment="update pom.xml, add daveloper field&#10;created class Human, Doctor, Nurse and Patient extends Human&#10;add close() in GetInformationFromDB&#10;removed unneccesarry try/catch from Main class&#10;added Connection class&#10;added closeStreams() in RemoveStaffFromDB" />
+    <list default="true" id="66698801-f415-48f3-8e94-397642bb7087" name="Changes" comment="update pom.xml, add daveloper field&#10;created class Human, Doctor, Nurse and Patient extends Human&#10;add close() in GetInformationFromDB&#10;removed unneccesarry try/catch from Main class&#10;added Connection class&#10;added closeStreams() in RemoveStaffFromDB">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/sqlfunctionalities/AddInformationToDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/sqlfunctionalities/AddInformationToDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/sqlfunctionalities/GetInformationFromDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/sqlfunctionalities/GetInformationFromDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/sqlfunctionalities/RemoveStaffFromDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/ndimovt/hospitalv2/sqlfunctionalities/RemoveStaffFromDB.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,22 +58,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Nikolai/IdeaProjects/Hospital-V2-main",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nikolai/IdeaProjects/Hospital-V2-main&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Hospital-V2-main" />
@@ -167,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682756293609</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update pom.xml, add daveloper field&#10;created class Human, Doctor, Nurse and Patient extends Human&#10;add close() in GetInformationFromDB&#10;removed unneccesarry try/catch from Main class&#10;added Connection class&#10;added closeStreams() in RemoveStaffFromDB">
+      <created>1701548010927</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701548010927</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -219,6 +234,7 @@
     <MESSAGE value="In this update i removed code that i don't use" />
     <MESSAGE value="#2 Escaping SQL injection" />
     <MESSAGE value="Fixes #2 Escaping SQL injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes #2 Escaping SQL injection" />
+    <MESSAGE value="update pom.xml, add daveloper field&#10;created class Human, Doctor, Nurse and Patient extends Human&#10;add close() in GetInformationFromDB&#10;removed unneccesarry try/catch from Main class&#10;added Connection class&#10;added closeStreams() in RemoveStaffFromDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml, add daveloper field&#10;created class Human, Doctor, Nurse and Patient extends Human&#10;add close() in GetInformationFromDB&#10;removed unneccesarry try/catch from Main class&#10;added Connection class&#10;added closeStreams() in RemoveStaffFromDB" />
   </component>
 </project>

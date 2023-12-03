@@ -29,11 +29,7 @@ public class GetInformationFromDB {
     public void checkPatientsInfo(){
         try{
             connection = this.getConnection();
-            preparedStatement = connection.prepareStatement("""
-                    SELECT p.forename, p.fathername, p.surname, p.EGN, ppd.adress, ppd.illness, ppd.treatment, ppd.date_in
-                    FROM patients p
-                    JOIN patients_personal_data ppd ON p.EGN = ppd.EGN
-                    """);
+            preparedStatement = connection.prepareStatement("call hospital.noTreatment()");
             resultSet = preparedStatement.executeQuery();
             while(resultSet.next()){
                 Human patient = new Patient(
@@ -45,7 +41,7 @@ public class GetInformationFromDB {
                         resultSet.getString("illness"),
                         resultSet.getString("treatment"),
                         resultSet.getString("date_in"));
-                System.out.println(patient);
+                System.out.println(patient.patientToString());
             }
         }catch (SQLException sqlException){
             System.out.println("No connection to database! Please try again later or call your IT support!");
@@ -57,12 +53,7 @@ public class GetInformationFromDB {
     public void checkDoctorsInfo(String doctorInfoEGN){
         try{
             connection = this.getConnection();
-            preparedStatement = connection.prepareStatement("""
-                    SELECT d.forename, d.fathername, d.surname, dpd.address, dpd.phone_number, dpd.date_in
-                    FROM doctors d
-                    JOIN doctors_personal_data dpd ON d.EGN = dpd.EGN
-                    WHERE d.EGN = ?
-                    """);
+            preparedStatement = connection.prepareStatement("call hospital.getDoctor(?)");
             preparedStatement.setString(1,doctorInfoEGN);
             resultSet = preparedStatement.executeQuery();
             while (resultSet.next()){
@@ -84,13 +75,7 @@ public class GetInformationFromDB {
     public void checkNursesInfo(String nurseEGN){
         try{
             connection = this.getConnection();
-            preparedStatement = connection.prepareStatement("""
-                    SELECT n.forename, n.fathername, n.surname, npd.address, npd.phone_number, npd.date_in
-                    FROM nurses n
-                    JOIN nurses_personal_data npd ON n.EGN = npd.EGN
-                    WHERE n.EGN = ?
-                    """
-            );
+            preparedStatement = connection.prepareStatement("call hospital.getNurse(?)");
             preparedStatement.setString(1,nurseEGN);
             resultSet = preparedStatement.executeQuery();
             while(resultSet.next()){

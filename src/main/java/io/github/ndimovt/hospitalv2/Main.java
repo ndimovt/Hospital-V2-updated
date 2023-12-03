@@ -47,11 +47,11 @@ public class Main {
                                     String illness = inn.nextLine();
                                     System.out.println("Enter patient's treatment");
                                     String treatment = inn.nextLine();
-                                        addInfoToDB.updatePatient(illness, treatment, egn);
+                                        addInfoToDB.updatePatient(egn, treatment, illness);
                                     break;
                                 case 3:
                                     String releasePatientEGN;
-                                    System.out.println("Enter patient's EGN1");
+                                    System.out.println("Enter patient's EGN");
                                     do {
                                         releasePatientEGN = inn.nextLine();
                                     } while (releasePatientEGN.length() != 10);

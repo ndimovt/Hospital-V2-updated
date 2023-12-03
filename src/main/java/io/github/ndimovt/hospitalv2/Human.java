@@ -39,5 +39,8 @@ public class Human {
     public String toString() {
         return forename +"/ "+ fatherName +"/ "+ surname +"/ "+ address +"/ "+ phoneNumber +"/ "+dateIn;
     }
+    public String patientToString(){
+        return forename +"/ "+ fatherName +"/ "+ surname +"/ "+ address +"/ "+EGN+"/ "+illness+"/ "+treatment+"/ "+dateIn;
+    }
 
 }

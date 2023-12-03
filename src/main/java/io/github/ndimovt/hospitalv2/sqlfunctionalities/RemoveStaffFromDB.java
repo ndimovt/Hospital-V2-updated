@@ -22,7 +22,7 @@ public class RemoveStaffFromDB {
         public void releasePatient(long egn){
         try{
             con  = this.getConnection();
-            prst = con.prepareStatement("UPDATE patients_personal_data SET date_out = ? WHERE EGN = ?");
+            prst = con.prepareStatement("call hospital.removePatient(?,?)");
             prst.setString(1, DateAndTime.dateTime);
             prst.setLong(2,egn);
             prst.executeUpdate();
@@ -38,7 +38,7 @@ public class RemoveStaffFromDB {
     public void releaseDoctor(long egn){
         try{
             con  = this.getConnection();
-            prst = con.prepareStatement("UPDATE doctors_personal_data SET date_out = ? WHERE EGN = ?");
+            prst = con.prepareStatement("call hospital.removeDoctor(?,?)");
             prst.setString(1, DateAndTime.dateTime);
             prst.setLong(2,egn);
             prst.executeUpdate();
@@ -54,7 +54,7 @@ public class RemoveStaffFromDB {
     public void releaseNurse(long egn){
         try{
             con  = this.getConnection();
-            prst = con.prepareStatement("UPDATE nurses_personal_data SET date_out = ? WHERE EGN = ?");
+            prst = con.prepareStatement("call hospital.removeNurse(?,?)");
             prst.setString(1, DateAndTime.dateTime);
             prst.setLong(2,egn);
             prst.executeUpdate();
